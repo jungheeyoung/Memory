@@ -20,6 +20,10 @@
         "source": "/Users/appcreator05/AndroidStudioProjects/Memory/Application/src/main/res/layout/drawer_list_item.xml"
     },
     {
+        "merged": "/Users/appcreator05/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/layout/fragment_friend.xml",
+        "source": "/Users/appcreator05/AndroidStudioProjects/Memory/Application/src/main/res/layout/fragment_friend.xml"
+    },
+    {
         "merged": "/Users/appcreator05/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
         "source": "/Users/appcreator05/AndroidStudioProjects/Memory/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/layout/select_dialog_singlechoice_material.xml"
     },
@@ -166,6 +170,10 @@
     {
         "merged": "/Users/appcreator05/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
         "source": "/Users/appcreator05/AndroidStudioProjects/Memory/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/appcreator05/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/layout/fragment_teacher.xml",
+        "source": "/Users/appcreator05/AndroidStudioProjects/Memory/Application/src/main/res/layout/fragment_teacher.xml"
     },
     {
         "merged": "/Users/appcreator05/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
