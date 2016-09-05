@@ -44,6 +44,10 @@
         "source": "/Users/appcreator05/AndroidStudioProjects/Memory/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/layout/abc_screen_toolbar.xml"
     },
     {
+        "merged": "/Users/appcreator05/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/layout/fragment_family.xml",
+        "source": "/Users/appcreator05/AndroidStudioProjects/Memory/Application/src/main/res/layout/fragment_family.xml"
+    },
+    {
         "merged": "/Users/appcreator05/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
         "source": "/Users/appcreator05/AndroidStudioProjects/Memory/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/layout/abc_dialog_title_material.xml"
     },
