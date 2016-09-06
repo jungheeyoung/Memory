@@ -1929,18 +1929,19 @@ containing a value of this type.
         public static final int earth=0x7f02004e;
         public static final int family=0x7f02004f;
         public static final int friend=0x7f020050;
-        public static final int ic_drawer=0x7f020051;
-        public static final int ic_launcher=0x7f020052;
-        public static final int jupiter=0x7f020053;
-        public static final int mars=0x7f020054;
-        public static final int mercury=0x7f020055;
-        public static final int neptune=0x7f020056;
-        public static final int notification_template_icon_bg=0x7f02005c;
-        public static final int saturn=0x7f020057;
-        public static final int teacher=0x7f020058;
-        public static final int tile=0x7f020059;
-        public static final int uranus=0x7f02005a;
-        public static final int venus=0x7f02005b;
+        public static final int friend1=0x7f020051;
+        public static final int ic_drawer=0x7f020052;
+        public static final int ic_launcher=0x7f020053;
+        public static final int jupiter=0x7f020054;
+        public static final int mars=0x7f020055;
+        public static final int mercury=0x7f020056;
+        public static final int neptune=0x7f020057;
+        public static final int notification_template_icon_bg=0x7f02005d;
+        public static final int saturn=0x7f020058;
+        public static final int teacher=0x7f020059;
+        public static final int tile=0x7f02005a;
+        public static final int uranus=0x7f02005b;
+        public static final int venus=0x7f02005c;
     }
     public static final class id {
         public static final int action0=0x7f0b0058;
@@ -2140,9 +2141,11 @@ containing a value of this type.
         public static final int app_not_available=0x7f050022;
         public static final int drawer_close=0x7f050023;
         public static final int drawer_open=0x7f050024;
-        public static final int intro_message=0x7f050025;
-        public static final int navigationdraweractivity_description=0x7f050026;
-        public static final int navigationdraweractivity_title=0x7f050027;
+        public static final int family=0x7f050025;
+        public static final int friend=0x7f050026;
+        public static final int intro_message=0x7f050027;
+        public static final int navigationdraweractivity_description=0x7f050028;
+        public static final int navigationdraweractivity_title=0x7f050029;
         public static final int status_bar_notification_info_overflow=0x7f050013;
     }
     public static final class style {

@@ -257,6 +257,8 @@
     <string name="app_not_available">Sorry, there\'s no web browser available</string>
     <string name="drawer_close">Close navigation drawer</string>
     <string name="drawer_open">Open navigation drawer</string>
+    <string name="family">가족</string>
+    <string name="friend">친구</string>
     <string name="intro_message">
         
         

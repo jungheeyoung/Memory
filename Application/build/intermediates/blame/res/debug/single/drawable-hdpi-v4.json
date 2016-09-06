@@ -172,6 +172,10 @@
         "source": "/Users/appcreator05/AndroidStudioProjects/Memory/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
+        "merged": "/Users/appcreator05/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/drawable-hdpi-v4/friend1.jpg",
+        "source": "/Users/appcreator05/AndroidStudioProjects/Memory/Application/src/main/res/drawable-hdpi/friend1.jpg"
+    },
+    {
         "merged": "/Users/appcreator05/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png",
         "source": "/Users/appcreator05/AndroidStudioProjects/Memory/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },

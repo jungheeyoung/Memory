@@ -1,9 +1,0 @@
-CHANGED,/Users/appcreator05/AndroidStudioProjects/Memory/Application/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/android/navigationdrawer/R$menu$override.class
-CHANGED,/Users/appcreator05/AndroidStudioProjects/Memory/Application/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/android/navigationdrawer/R$styleable$override.class
-CHANGED,/Users/appcreator05/AndroidStudioProjects/Memory/Application/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/v7/appcompat/R$layout$override.class
-CHANGED,/Users/appcreator05/AndroidStudioProjects/Memory/Application/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/android/navigationdrawer/NavigationDrawerActivity$PlanetFragment$override.class
-CHANGED,/Users/appcreator05/AndroidStudioProjects/Memory/Application/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/android/navigationdrawer/R$style$override.class
-CHANGED,/Users/appcreator05/AndroidStudioProjects/Memory/Application/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/android/navigationdrawer/R$layout$override.class
-CHANGED,/Users/appcreator05/AndroidStudioProjects/Memory/Application/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/android/navigationdrawer/MainActivity$SampleAdapter$override.class
-CHANGED,/Users/appcreator05/AndroidStudioProjects/Memory/Application/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/android/navigationdrawer/R$string$override.class
-CHANGED,/Users/appcreator05/AndroidStudioProjects/Memory/Application/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class

@@ -20,6 +20,8 @@
         <item>친구</item>
         <item>선생님</item>
     </string-array>
+    <string name="family">가족</string>
+    <string name="friend">친구</string>
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
     <string name="action_websearch">Web search</string>
