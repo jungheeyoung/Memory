@@ -36,9 +36,13 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
     private Sample[] mSamples;
     private GridView mGridView;
 
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //splash
+        startActivity(new Intent(this,SplashActivity.class));
 
         // Prepare list of samples in this dashboard.
         mSamples = new Sample[]{
@@ -87,6 +91,7 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
             return convertView;
         }
     }
+    //splash
 
     private class Sample {
         int titleResId;
