@@ -65,7 +65,7 @@ import java.util.Locale;
  * An action should be an operation performed on the current contents of the window,
  * for example enabling or disabling a data overlay on top of the current content.</p>
  */
-public class NavigationDrawerActivity extends Activity implements PlanetAdapter.OnItemClickListener {
+public class NavigationDrawerActivity extends Activity implements PlanetAdapter.OnItemClickListener, View.OnClickListener {
     private DrawerLayout mDrawerLayout;
     private RecyclerView mDrawerList;
     private ActionBarDrawerToggle mDrawerToggle;
@@ -73,7 +73,7 @@ public class NavigationDrawerActivity extends Activity implements PlanetAdapter.
     private CharSequence mDrawerTitle;
     private CharSequence mTitle;
     private String[] mPlanetTitles;
-
+    static ImageView iv;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -171,7 +171,7 @@ public class NavigationDrawerActivity extends Activity implements PlanetAdapter.
 
     private void selectItem(int position) {
         // update the main content by replacing fragments
-        Fragment fragment = PlanetFragment.newInstance(position);
+        Fragment fragment = PlanetFragment.newInstance(position, this);
 
         FragmentManager fragmentManager = getFragmentManager();
         FragmentTransaction ft = fragmentManager.beginTransaction();
@@ -209,16 +209,28 @@ public class NavigationDrawerActivity extends Activity implements PlanetAdapter.
     }
 
     /**
+     * Called when a view has been clicked.
+     *
+     * @param v The view that was clicked.
+     */
+    @Override
+    public void onClick(View v) {
+        Intent intent = new Intent(this, ViewPagerActivity.class);
+        startActivity(intent);
+    }
+
+    /**
      * Fragment that appears in the "content_frame", shows a planet
      */
     public static class PlanetFragment extends Fragment {
         public static final String ARG_PLANET_NUMBER = "planet_number";
-
+        static NavigationDrawerActivity m_nda;
         public PlanetFragment() {
             // Empty constructor required for fragment subclasses
         }
 
-        public static Fragment newInstance(int position) {
+        public static Fragment newInstance(int position, NavigationDrawerActivity nda) {
+            m_nda = nda;
             Fragment fragment = new PlanetFragment();
             Bundle args = new Bundle();
             args.putInt(PlanetFragment.ARG_PLANET_NUMBER, position);
@@ -229,7 +241,6 @@ public class NavigationDrawerActivity extends Activity implements PlanetAdapter.
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-
             View rootView = null;
             int i = getArguments().getInt(ARG_PLANET_NUMBER);
             switch(i){
@@ -243,6 +254,10 @@ public class NavigationDrawerActivity extends Activity implements PlanetAdapter.
                     rootView = inflater.inflate(R.layout.fragment_teacher, container, false);
                     break;
             }
+
+            iv = ((ImageView)rootView.findViewById(R.id.image));
+            iv.setOnClickListener(m_nda);
+            //iv.setOnClickListener(NavigationDrawerActivity.this);
 
             String planet = getResources().getStringArray(R.array.planets_array)[i];
 

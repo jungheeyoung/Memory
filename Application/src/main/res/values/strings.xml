@@ -26,4 +26,9 @@
     <string name="drawer_close">Close navigation drawer</string>
     <string name="action_websearch">Web search</string>
     <string name="app_not_available">Sorry, there\'s no web browser available</string>
+
+    <string name="menu_share">Share</string>
+    <string name="quote_1">상콤한 자몽</string>
+    <string name="quote_2">달콤상큼한 청포도</string>
+    <string name="quote_3">달콤한 오렌지</string>
 </resources>
